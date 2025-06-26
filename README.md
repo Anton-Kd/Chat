@@ -42,7 +42,7 @@
 **[Client](src/main/java/Client.java) используется**:
 - Считываем из файла порт и хост для подключения к cерверу [settings.txt](src/main/resources/settings.txt)
 - Пишем имя подключившегося.
-- В потоке [ThreadReadMessage](src/main/java/org/example/thread/ReadMessage.java) происходит считывание файла и проверка на новые сообщения;
+- В потоке [ThreadReadMessage](src/main/java/Thread/ReadMessage.java) происходит считывание файла и проверка на новые сообщения;
 - Cообщения отправляются на сервер для логирования в файл. 
 - Ввод команды "/exit", завершает сеанс пользователя.
   
